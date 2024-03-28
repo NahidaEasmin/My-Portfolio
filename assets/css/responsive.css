@@ -1,0 +1,42 @@
+@media only screen and (max-width: 992px){
+/*--About Area--*/
+.about-area .profile-photo{
+	width: 200px!important;
+	height: 200px!important;
+	margin: auto;
+}
+}
+
+@media only screen and (max-width: 768px){
+	/*--------- Navigation Start -----------*/
+
+	.navbar-toggler{
+		border: 1px solid #B6B6B6;
+		border-radius: 6px!important;
+	}
+	.navbar .navbar-nav{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.navbar .navbar-nav .nav-link{
+		border-bottom: 1px solid #272727;
+	}
+
+	/*--About Area--*/
+	.about-area .profile-photo{
+	width: 200px!important;
+	height: 200px!important;
+	margin: auto;
+}
+.about-area .name{
+	margin-top: 10px!important;
+}
+.about-area .name, .designation, .social-link{
+	text-align: center;
+}
+.about-area button{
+	display: inline-block;
+	margin: auto;
+	border-radius: 5px!important;
+}
+}
